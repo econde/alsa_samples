@@ -1,0 +1,8 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define	CONFIG_SAMPLE_RATE 	44100
+#define	CONFIG_BLOCK_PERIOD 512
+#define CONFIG_CHANNELS	2
+
+#endif
