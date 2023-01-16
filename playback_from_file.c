@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
 			break;
 		}
 		if (wrote_frames < read_frames)
-			fprintf(stderr, "Short write (expected %i, wrote %li)\n",
+			fprintf(stderr, "Short write (expected %zd, wrote %li)\n",
 					read_frames, wrote_frames);
 
 		read_frames = fread(buffer, frame_size, period_size, fd);
